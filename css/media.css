@@ -1,0 +1,246 @@
+/*.header, .intro, .info, .resaults-section, .resaults-gallery, .recomendation, .catalog, .recomendation_1, .footer-catalog, .footer, .footer-final {
+    display: none;
+} */
+
+@media (max-width: 1350px) {
+    .resaults-gallery_wrapper {
+        display: block;
+    }
+
+    .resaults-gallery-block img {
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .catalog-wrapper {
+        display: block;
+    }
+
+    .catalog-block-button {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .catalog-block {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .footer-final-subtitle {
+        display: none;
+    }
+
+    .footer-final-wrapper {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1050px) {
+    .resaults-section_wrapper {
+        display: block;
+    }
+
+    .resaults-info_title {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .resaults-info_icons img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .resaults-info_subtitle {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .resaults-table {
+        justify-content: center;
+        max-width: none;
+    }
+
+    .resault-table_subtitle {
+        max-width: 250px;
+    }
+
+    .resault-table_block {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 990px) {
+    .recomendation-slider {
+        display: none;
+    }
+
+    .recomendation-wrapper {
+        justify-content: center;
+    }
+
+    .recomendation-info_title {
+        justify-content: center;
+    }
+
+    .recomendation-info-subtitle {
+        text-align: center;
+    }
+
+    .recomendation-info-block-icons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .recomendation_1-slider {
+        display: none;
+    }
+
+    .recomendation_1-info {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+ @media (max-width: 800px) {
+    .nav {
+        display: none;
+    }
+
+    .header_wrapper {
+        justify-content: flex-end;
+    }
+
+    .footer-catalog-image_1 {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .info-blocks {
+        display: block;
+    }
+
+    .info-block {
+        width: 100%;
+        border-right: 2px #898989 solid;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 595px) {
+    .footer-catalog-image_2 {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .intro-title h1 {
+        font-size: 70px;
+    }
+
+    .intro-subtitle {
+        font-size: 20px;
+    }
+
+    .resaults-info_subtitle {
+        font-size: 16px;
+    }
+
+    .resaults-info_title {
+        font-size: 36px;
+    }
+
+    .recomendation-info-title-text {
+        font-size: 20px;
+        letter-spacing: 1.2px;
+    }
+
+    .recomendation-info_title {
+        column-gap: 10px;
+    }
+
+    .catalog-block-title-text {
+        font-size: 22px;
+    }
+
+    .catalog-block-subtitle {
+        font-size: 14px;
+    }
+
+    .catalog-title {
+        font-size: 42px;
+    }
+
+    .catalog-buttons {
+        display: block;
+    }
+
+    .catalog-button {
+        margin-bottom: 5px;
+    }
+
+    .footer-title {
+        font-size: 36px;
+    }
+
+    .footer-block {
+        display: grid;
+    }
+
+    .footer-block-input_active {
+        margin-bottom: 5px;
+    }
+
+    .footer-block-input-main {
+        margin-bottom: 5px;
+    }
+
+    .footer-block-icons {
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+    }
+
+    .footer-block_button  {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .footer-block_contact-location_text {
+        text-align: center;
+    }
+
+    .footer-block_contact-location {
+        column-gap: 0;
+    }
+
+    .footer-block_contact-number {
+        justify-content: center;
+    }
+
+    .footer-block_contact-email {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .resaults-gallery-block-button {
+        font-size: 13px;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 390px) {
+    .footer-block-input-main {
+        max-width: 250px;
+    }
+}
+
